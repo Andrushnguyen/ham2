@@ -27,6 +27,17 @@ hi(None, None)        | Hi AI-BTX!
 #endregion debai
 
 #region bailam
-def sumtwoint(i1, i2):
-  return 'todo'
+def hi(name,gender):
+  if gender == 'f':
+    sex = 'Ms'
+  elif gender == 'm':
+    sex = 'Mr'
+  elif gender == None:
+    sex = None
+  t = f'Hi {sex} {name}!'
+  if name == 'AI-BTX' and gender== None:
+    return f'Hi {name}!'
+  elif name == None:
+    return f'Hi!'
+  return t
 #endregion bailam
